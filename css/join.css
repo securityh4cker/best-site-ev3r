@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'vcr';
+    src: url('/fonts/vcr.ttf');
+}
+
+body {
+    background: url("/joinbg3.gif");
+    font-family: "vcr";
+}
+
+#text-container{
+    position: absolute;
+    top:30%;
+    left:10%;
+    max-width: 60%;
+
+    font-size: 1.8vw;
+
+    color: #2bff00;
+}

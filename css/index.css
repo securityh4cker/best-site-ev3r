@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'virus';
+    src: url('/fonts/virus.ttf');
+}
+
+body {
+    background: url("/indexbg2.jpg");
+    font-family: "virus";
+
+    background-size: cover;
+}
+
+#container{
+    position: absolute;
+    left:30%;
+    top:35%;
+    max-width: 40%;
+    font-size: 5vw;
+    color: black;
+
+    text-align: center;
+}
+
+.inputname {
+    font-size: 42px;
+    background-color: #2bff00;
+    width: 100%;
+    border: none;
+    font-family: "virus";
+    text-transform: uppercase;
+    margin-top: 2vw;
+}
+
+.joinuscontainer {
+    text-shadow: -10px -3px 0 #c63c86,
+                    -18px -6px 0 #2bff00;
+}
